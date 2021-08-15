@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\proximamente"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "drekert2"
+	}
+}
