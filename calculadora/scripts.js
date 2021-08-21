@@ -2,6 +2,12 @@ const botonNumeros = document.getElementsByName('data-number')
 const botonOpera = document.getElementsByName ('data-opera')
 const botonIgual = document.getElementsByName('data-igual')[0]
 const botonDelete = document.getElementsByName('data-delete')[0]
+const Switch = document.getElementById('switch')
+
+const Switch2 = document.getElementById('switch2')
+const body = document.querySelector('body')
+const contenedor = document.getElementById('contenedor')
+
 let Result = document.getElementById('resultado')
 let opeActual = '';
 let opeAnterior ='';
@@ -99,3 +105,11 @@ function actualizarDisplay (){
 }
 
 clear();
+
+
+Switch2.addEventListener('click', () =>{
+    
+    body.classList.toggle('daymode');
+    
+
+})
