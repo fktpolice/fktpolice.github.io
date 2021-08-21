@@ -41,10 +41,18 @@ font-size: 2em;
 }
 
 
+
+
+
 button{
     font-size: .9em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #082032;
+
+    
+    //*background-color: #082032;
+    COLOR ALTERNATIVO
+    *//
+    background-color: #FF4C29;
     opacity: 0.8;
     top:1em;
     margin-left:auto;
@@ -57,7 +65,7 @@ left: .8em;
     width: 3em;
     margin: .3em;
     border:1px solid #FF4C29;
-    color:white
+    color:white;
 }
 
 
