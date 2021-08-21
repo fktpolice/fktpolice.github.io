@@ -118,7 +118,7 @@ background-color: #FF4C29;
 }
 
 .cero:hover{
-    background-color: tomato;
+    background-color: rgb(247, 113, 90);
 }
 
 
@@ -127,7 +127,7 @@ background-color: #FF4C29;
     background-color: #fa7357;
     }
     
-    .cero:hover{
+  .daymode .cero:hover{
         background-color: rgb(255, 79, 47);
     }
     
