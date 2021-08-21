@@ -1,6 +1,7 @@
 body{
     background-color: #2C394B;
     box-sizing: border-box;
+    margin:0 auto 150px;
 }
 
 .contenedor{
@@ -16,12 +17,26 @@ body{
     box-shadow:   22px 22px 44px #252f3e,
     -22px -22px 44px #334358;
 
-
-
-
-
- 
 }
+
+
+
+
+.daymode .contenedor{
+    top: 5em;
+    position: relative;
+    background-color: #FFE3E3;
+    border-radius: 2em 2em .5em .5em;
+    width: 16em;
+    height: 20em;
+    margin-left:auto ;
+    margin-right: auto;
+    
+    box-shadow:   15px 15px 30px #e8cfcf,
+    -15px -15px 30px #fff7f7;
+}
+
+
 
 .resultado{
     position: relative;
@@ -41,36 +56,81 @@ font-size: 2em;
 }
 
 
-
+.daymode .resultado{
+    position: relative;
+    display: block;
+    top: 1em; ;
+    border-radius: 8px;
+    background-color: #93B5C6;
+    opacity: .8;
+    color:#fcfcfc;
+    border: 1px solid #3D84B8;
+    margin-left:auto;
+    margin-right: auto;
+  text-align: right;
+font-size: 2em;
+    width: 7em;
+    height: auto;
+}
 
 
 button{
     font-size: .9em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-    
     background-color: #082032;
-   
     opacity: 0.8;
     top:1em;
     margin-left:auto;
     margin-right: auto;
-        align-items:right;
-        left: .8em;
+align-items:right;
+left: .8em;
     position: relative;
     border-radius: 5px;
     height: 3em;
     width: 3em;
     margin: .3em;
     border:1px solid #FF4C29;
-    color:white;
+    color:white
+}
+
+.daymode button{
+    font-size: .9em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #C9CCD5;
+    opacity: 0.8;
+    top:1em;
+    margin-left:auto;
+    margin-right: auto;
+align-items:right;
+left: .8em;
+    position: relative;
+    border-radius: 5px;
+    height: 3em;
+    width: 3em;
+    margin: .3em;
+    border:1px solid #3F3697;
+    color:#11324D
+}
+
+
+.cero{
+background-color: #FF4C29;
+}
+
+.cero:hover{
+    background-color: tomato;
 }
 
 
 
-                .cero{
-            background-color: #FF4C29;
-                    }
+.daymode .cero{
+    background-color: #fa7357;
+    }
+    
+    .cero:hover{
+        background-color: rgb(255, 79, 47);
+    }
+    
 
 
 .botones{
@@ -90,4 +150,60 @@ button{
     color: rgb(64, 63, 65);
     opacity: 100%;
     font-size: 30px;
+}
+
+.daymode .resultado::placeholder{
+    color: rgb(233, 231, 235);
+    opacity: 100%;
+    font-size: 30px;
+}
+
+
+
+body.daymode{
+background-color: #FFE3E3;
+}
+
+
+
+
+
+
+footer {
+  
+    height: 150px;
+    position: absolute; left: 0; bottom: 0; width: 100%;}
+
+    .switch{
+        position: relative;
+        width: auto;
+        height: 1.5em;
+        left: 47vw;
+       
+        top: -100px;
+    } 
+
+
+    i {
+     
+        color: #FFE5E2;
+      opacity: .5;
+    }
+
+i:hover{
+    opacity: 100%;
+}
+
+    .daymode i{
+        color: #005A8D;
+    }
+
+
+
+    .lock:hover .icon-unlock,
+.lock .icon-lock {
+    display: none;
+}
+.lock:hover .icon-lock {
+    display: inline;
 }
