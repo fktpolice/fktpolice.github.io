@@ -49,16 +49,14 @@ button{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
     
-    //*background-color: #082032;
-    COLOR ALTERNATIVO
-    *//
-    background-color: #FF4C29;
+    background-color: #082032;
+   
     opacity: 0.8;
     top:1em;
     margin-left:auto;
     margin-right: auto;
-align-items:right;
-left: .8em;
+        align-items:right;
+        left: .8em;
     position: relative;
     border-radius: 5px;
     height: 3em;
@@ -70,9 +68,9 @@ left: .8em;
 
 
 
-.cero{
-background-color: #FF4C29;
-}
+                .cero{
+            background-color: #FF4C29;
+                    }
 
 
 .botones{
